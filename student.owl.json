@@ -1,0 +1,310 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.78",
+      "translation": [
+        154.34,
+        77.93
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#вчитель",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4",
+      "label": {
+        "IRI-based": "вчитель"
+      },
+      "comment": {
+        "undefined": "вчителі університету"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#навчає",
+          "labels": {
+            "IRI-based": "навчає"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#дає_досвід",
+          "labels": {
+            "IRI-based": "дає_досвід"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#надає_інформацію",
+          "labels": {
+            "IRI-based": "надає_інформацію"
+          }
+        }
+      ],
+      "pos": [
+        574.88,
+        459.86
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      }
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#студенти",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4",
+      "label": {
+        "IRI-based": "студенти"
+      },
+      "comment": {
+        "undefined": "студенти які взаємодіють між собою"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#спілкування",
+          "labels": {
+            "IRI-based": "спілкування"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#обмін_досвідом",
+          "labels": {
+            "IRI-based": "обмін_досвідом"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#взаємодопомога",
+          "labels": {
+            "IRI-based": "взаємодопомога"
+          }
+        }
+      ],
+      "pos": [
+        238.63,
+        384.91
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#студент",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4",
+      "label": {
+        "IRI-based": "студент"
+      },
+      "pos": [
+        467.47,
+        111.68
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#підрозділи",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4",
+      "label": {
+        "IRI-based": "підрозділи"
+      },
+      "comment": {
+        "undefined": "підрозділи університету"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#керують_процесом_навчання",
+          "labels": {
+            "IRI-based": "керують_процесом_навчання"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#створюють_розклад",
+          "labels": {
+            "IRI-based": "створюють_розклад"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#інформують",
+          "labels": {
+            "IRI-based": "інформують"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#працюють_з_документацією",
+          "labels": {
+            "IRI-based": "працюють_з_документацією"
+          }
+        }
+      ],
+      "pos": [
+        813.69,
+        201.7
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "3",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "4",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4#взаємодіє",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-4",
+      "label": {
+        "IRI-based": "взаємодіє"
+      },
+      "domain": "2",
+      "range": "2"
+    },
+    {
+      "id": "4",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "0",
+      "range": "1",
+      "pos": [
+        518.8,
+        278.08
+      ]
+    },
+    {
+      "id": "5",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "6",
+      "range": "1",
+      "pos": [
+        358.21,
+        242.13
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "8",
+      "range": "1",
+      "pos": [
+        631.93,
+        154.44
+      ]
+    }
+  ]
+}
