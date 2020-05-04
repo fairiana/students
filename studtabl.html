@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Студент</title>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script>google.load("visualization", "1.1", 
+{packages:["wordtree"]});
+ google.setOnLoadCallback(drawChart);
+ function drawChart() {
+ var data = google.visualization.arrayToDataTable(
+ [ ['Фразы'],
+ ['студент студенти спілкується'],
+ ['студент студенти взаємодопомагає'],
+ ['студент студенти обмінюється_досвідом'],
+ ['студент викладачі знання'],
+ ['студент викладачі досвід'],
+ ['студент викладачі інформацію'],
+ ['студент підрозділи накази'],
+ ['студент підрозділи інформацію процес_навчання'],
+ ['студент підрозділи інформацію розклад'],
+ ['студент підрозділи інформацію документація'],
+ ['студент підрозділи інформацію оплата'],
+ ]
+ );
+ var options = {
+maxFontSize: 14,
+ wordtree: {
+ format: 'implicit',
+ word: 'студент'
+ }
+ };
+ var chart = new google.visualization.WordTree
+(document.getElementById('wordtree_basic'));
+ chart.draw(data, options);
+ }
+</script>	
+</head>
+
+<body>
+<div id="wordtree_basic" style="width: 100%; 
+height: 500px;"></div>
+</body>
+</html>
