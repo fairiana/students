@@ -1,0 +1,749 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "baseIris": [
+      "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.35",
+      "translation": [
+        355.02,
+        206.37
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#знання",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "знання"
+      },
+      "pos": [
+        724.35,
+        436.74
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#обмінюються_досвідом",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "обмінюються_досвідом"
+      },
+      "pos": [
+        234.44,
+        929.12
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#Вчителі",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "Вчителі"
+      },
+      "pos": [
+        400.14,
+        -177.39
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#надають_інформацію",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "надають_інформацію"
+      },
+      "pos": [
+        282.48,
+        -511.73
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#створюють_розклад",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "створюють_розклад"
+      },
+      "pos": [
+        1276.19,
+        285.6
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#навчають",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "навчають"
+      },
+      "pos": [
+        626.57,
+        -451.39
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#дотримуватися_правил",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "дотримуватися_правил"
+      },
+      "pos": [
+        -183.31,
+        107.16
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#Підрозділи",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "Підрозділи"
+      },
+      "pos": [
+        939.91,
+        136.69
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#спілкуються",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "спілкуються"
+      },
+      "pos": [
+        449.14,
+        919.64
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#дають_досвід",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "дають_досвід"
+      },
+      "pos": [
+        56.22,
+        -265.5
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#навички",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "навички"
+      },
+      "pos": [
+        1008.25,
+        858.69
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#керують_процесом_навчання",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "керують_процесом_навчання"
+      },
+      "pos": [
+        1039.13,
+        -208.65
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#працюють_з_документацією",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "працюють_з_документацією"
+      },
+      "pos": [
+        1135.07,
+        444.96
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#інформують",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "інформують"
+      },
+      "pos": [
+        1275.79,
+        2.73
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#повинні",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "повинні"
+      },
+      "pos": [
+        -40.39,
+        431.39
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#Студент",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "Студент"
+      },
+      "pos": [
+        532.01,
+        190.65
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#отримують",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "отримують"
+      },
+      "pos": [
+        665.48,
+        770.5
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#Студенти",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "Студенти"
+      },
+      "pos": [
+        325.58,
+        565.81
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#виконувати_завдання",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "виконувати_завдання"
+      },
+      "pos": [
+        -382.94,
+        366.41
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7#взаємодопомагають",
+      "baseIri": "http://www.semanticweb.org/л/ontologies/2020/4/untitled-ontology-7",
+      "label": {
+        "IRI-based": "взаємодопомагають"
+      },
+      "pos": [
+        33.07,
+        794.31
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "2",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "10",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "12",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "14",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "16",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "17",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "23",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "29",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "31",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "34",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "36",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "38",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "2",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "3",
+      "range": "4",
+      "pos": [
+        735.96,
+        163.67
+      ]
+    },
+    {
+      "id": "5",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "6",
+      "range": "4",
+      "pos": [
+        428.79,
+        378.23
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "8",
+      "range": "4",
+      "pos": [
+        466.08,
+        6.63
+      ]
+    },
+    {
+      "id": "10",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "8",
+      "pos": [
+        341.31,
+        -344.56
+      ]
+    },
+    {
+      "id": "12",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "13",
+      "range": "8",
+      "pos": [
+        513.35,
+        -314.39
+      ]
+    },
+    {
+      "id": "14",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "15",
+      "range": "8",
+      "pos": [
+        228.18,
+        -221.45
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "0",
+      "range": "1",
+      "pos": [
+        694.91,
+        603.62
+      ]
+    },
+    {
+      "id": "17",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "18",
+      "range": "1",
+      "pos": [
+        836.87,
+        814.59
+      ]
+    },
+    {
+      "id": "22",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "20",
+      "range": "21",
+      "pos": [
+        -111.85,
+        269.28
+      ]
+    },
+    {
+      "id": "23",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "24",
+      "range": "21",
+      "pos": [
+        -211.67,
+        398.9
+      ]
+    },
+    {
+      "id": "29",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "30",
+      "range": "6",
+      "pos": [
+        179.32,
+        680.06
+      ]
+    },
+    {
+      "id": "31",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "9",
+      "range": "6",
+      "pos": [
+        280.01,
+        747.46
+      ]
+    },
+    {
+      "id": "32",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "1",
+      "range": "6",
+      "pos": [
+        495.53,
+        668.15
+      ]
+    },
+    {
+      "id": "33",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "27",
+      "range": "3",
+      "pos": [
+        1107.85,
+        69.71
+      ]
+    },
+    {
+      "id": "34",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "28",
+      "range": "6",
+      "pos": [
+        387.36,
+        742.73
+      ]
+    },
+    {
+      "id": "35",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "21",
+      "range": "6",
+      "pos": [
+        142.59,
+        498.6
+      ]
+    },
+    {
+      "id": "36",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "19",
+      "range": "3",
+      "pos": [
+        1108.05,
+        211.15
+      ]
+    },
+    {
+      "id": "37",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "26",
+      "range": "3",
+      "pos": [
+        1037.49,
+        290.83
+      ]
+    },
+    {
+      "id": "38",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "25",
+      "range": "3",
+      "pos": [
+        989.52,
+        -35.98
+      ]
+    }
+  ]
+}
